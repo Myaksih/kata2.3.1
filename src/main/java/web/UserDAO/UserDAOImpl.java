@@ -7,7 +7,7 @@ import org.springframework.stereotype.Repository;
 import web.model.User;
 
 import java.util.List;
-
+@Repository
 public class UserDAOImpl implements UserDAO{
     @PersistenceContext
     private EntityManager entityManager;
